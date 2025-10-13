@@ -1,6 +1,6 @@
 @import url("global.css");
 
-header{
+header {
 
     display: flex;
     justify-content: space-around;
@@ -8,14 +8,14 @@ header{
     padding: 20px 0px;
 }
 
-.nav-header ul{
+.nav-header ul {
 
     display: flex;
     list-style: none;
     gap: 30px;
 }
 
-.nav-header ul li a{
+.nav-header ul li a {
     color: var(--color-secondary-dark);
     text-decoration: none;
     font-family: var(--font-body);
@@ -31,7 +31,7 @@ header{
     font-size: var(--font-button-size);
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,23 +39,23 @@ main{
     padding: 60px 0px;
 }
 
-.content-main{
+.content-main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-h1{
+h1 {
     font-size: var(--font-headline-h1-size);
     font-family: var(--font-title);
     width: 562px;
 }
 
-.highlighted-word{
+.highlighted-word {
     color: var(--color-primary-orange);
 }
 
-.content-main p{
+.content-main p {
     font-size: var(--font-body-size);
     color: var(--color-secondary-L_gray);
     font-family: var(--font-body);
@@ -63,12 +63,12 @@ h1{
     line-height: 30px;
 }
 
-.container-btn-main{
+.container-btn-main {
     display: flex;
     gap: 20px;
 }
 
-.section-differences{
+.section-differences {
     background-color: var(--color-primary-orange-10);
     display: flex;
     flex-direction: column;
@@ -77,12 +77,12 @@ h1{
     gap: 40px;
 }
 
-.differences-cards-container{
+.differences-cards-container {
     display: flex;
     gap: 70px;
 }
 
-.differences-cards{
+.differences-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,20 +93,20 @@ h1{
     text-align: center;
 }
 
-.differences-cards h3{
+.differences-cards h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h3-size);
     width: 181px;
 }
 
-.differences-cards p{
+.differences-cards p {
     width: 227px;
     font-family: var(--font-body);
     color: var(--color-secondary-L_gray);
     line-height: 30px;
 }
 
-.section-chef{
+.section-chef {
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -114,18 +114,18 @@ h1{
     padding: 60px;
 }
 
-.content-chef{
+.content-chef {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.content-chef h2{
+.content-chef h2 {
     width: 433px;
     line-height: 60px;
 }
 
-.content-chef p{
+.content-chef p {
     font-family: var(--font-body);
     color: var(--color-secondary-L_gray);
     width: 503px;
@@ -133,7 +133,7 @@ h1{
 
 }
 
-.section-featured-dishes{
+.section-featured-dishes {
     background-color: var(--color-primary-orange-10);
     display: flex;
     flex-direction: column;
@@ -143,14 +143,14 @@ h1{
     text-align: center;
 }
 
-.container-cards-dishes{
+.container-cards-dishes {
     display: flex;
     justify-content: center;
     gap: 25px;
     padding-top: 101px;
 }
 
-.card-dishes{
+.card-dishes {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -165,25 +165,25 @@ h1{
     position: relative;
 }
 
-.card-dishes img{
+.card-dishes img {
     position: absolute;
     top: -101px;
 }
 
-.card-dishes h3{
+.card-dishes h3 {
     font-size: var(--font-headline-h3-size);
     font-family: var(--font-title);
     width: 174px;
 }
 
-.card-dishes p{
+.card-dishes p {
     font-family: var(--font-body);
     line-height: 30px;
     color: var(--color-secondary-L_gray);
     width: 271px;
 }
 
-.section-our-environments{
+.section-our-environments {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,39 +191,39 @@ h1{
     padding: 60px;
 }
 
-.container-environments{
+.container-environments {
     display: flex;
     gap: 20px;
 }
 
-.container-environments-left{
+.container-environments-left {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.container-environments-left div{
+.container-environments-left div {
     display: flex;
     gap: 29px;
 }
 
-.section-our-reviews{
+.section-our-reviews {
     background-color: var(--color-primary-orange-10);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding: 60px;    
+    padding: 60px;
 }
 
-.container-reviews{ 
-    display: grid; 
+.container-reviews {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 
 }
 
-.card-reviews{
+.card-reviews {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -233,30 +233,30 @@ h1{
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
-.client-review{
+.client-review {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.client-name{
+.client-name {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.client-name h3{
+.client-name h3 {
     font-size: var(--font-headline-h4-size);
     font-family: var(--font-title);
 }
 
-.card-reviews p{
+.card-reviews p {
     font-family: var(--font-body);
     width: 358px;
     color: var(--color-secondary-dark);
 }
 
-.section-reservation{
+.section-reservation {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,53 +264,135 @@ h1{
     padding: 60px 0px;
 }
 
-.container-reservation{
+.container-reservation {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.box-input{
+.box-input {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.box-input label{
+.box-input label {
     font-family: var(--font-body);
 }
 
-.box-input input{
+.box-input input {
     border: 1px solid #5c6574;
     height: 35px;
     border-radius: 5px;
     width: 450px;
 }
 
-.container-box-input{
+.container-box-input {
     display: flex;
     gap: 10px;
 }
 
-.container-box-input input{
+.container-box-input input {
     width: 220px;
 }
 
-textarea{
+textarea {
     border: 1px solid #5c6574;
     height: 100px;
     width: 450px;
     border-radius: 5px;
 }
 
-form button{
+form button {
     align-self: flex-start;
     cursor: pointer;
+}
+
+.section-maps {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px;
+}
+
+.section-maps iframe {
+    width: 90%;
+    height: 60vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: var(--color-secondary-L_gray);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.social-icons:hover {
+    background-color: var(--color-primary-orange);
+    transform: translateY(-10px);
+}
+
+.container-footer-navigation {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-navigation h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+}
+
+.footer-navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-navigation ul li a{
+    text-decoration: none;
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body);
 }
